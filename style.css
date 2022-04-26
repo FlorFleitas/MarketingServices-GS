@@ -135,6 +135,7 @@ text-transform: uppercase;
 margin: 0;
 text-align: center;
 width: 30em;
+padding-top: 1em;
 }
 
 .perks {
@@ -151,14 +152,14 @@ width: 30em;
   width: 60em;
   position: relative;
   left: 15em;
-  top: -9em;
+  top: -6em;
 }
 
 .perks::after {
   content: '';
     position: absolute;
     bottom: 0;
-    top: 62em;
+    top: 65em;
     right: 70px;
     height: 170px;
     background-color: #000;
