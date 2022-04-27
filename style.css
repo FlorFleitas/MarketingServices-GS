@@ -294,7 +294,7 @@ a {
   position: absolute;
   width: 680px;
   left: 580px;
-  top: 20px;
+  top: 15px;
   text-align: center;
   opacity: 0;
   transition: opacity .5s ease;
@@ -335,7 +335,7 @@ a {
   position: absolute;
   width: 650px;
   left: 585px;
-  top: 72px;
+  top: 60px;
   text-align: center;
   opacity: 0;
   transition: opacity .5s ease;
