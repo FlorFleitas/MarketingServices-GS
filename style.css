@@ -294,12 +294,14 @@ a {
   position: absolute;
   width: 680px;
   left: 600px;
-  top: 40px;
+  top: 20px;
   text-align: center;
   opacity: 0;
   transition: opacity .5s ease;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  margin: 5px;
 }
 
 .container:hover .description2 {
