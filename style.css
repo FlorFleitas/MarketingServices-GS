@@ -97,15 +97,15 @@ a {
 .benefits h3 {
   font-family: "GoldenbookW01-Light", serif;
   font-weight: 500;
-  position: absolute;
-  top: 17em;
-  left: 17.5em;
+  position: relative;
+  top: 11em;
   color: #fff;
   text-transform: uppercase;
   margin: 0;
   white-space: pre-line;
-  font-size: 3.1vh;
+  font-size: 22px;
   line-height: 1.57;
+  text-align: center;
 }
 
 .bawah-arrow {
@@ -161,17 +161,15 @@ a {
 
 .perks h4 {
   font-family: "GoldenbookW01-Light", sans-serif;
-  font-size: 5.2vh;
+  font-size: 35px;
   font-weight: bold;
-  position: absolute;
-  top: 21em;
-  left: 4.5em;
+  position: relative;
+  top: 8em;
   color: rgba(22, 45, 84, 1);
   text-transform: uppercase;
   margin: 0;
   text-align: center;
-  width: 30em;
-  padding-top: 1em;
+  padding: 4em;
 }
 
 .perks {
@@ -182,15 +180,16 @@ a {
   letter-spacing: .1em;
   font-size: 2.26vh;
   text-align: center;
-  margin-top: 62em;
+  margin-top: 13em;
   width: 100%;
 }
 
 .perks p {
-  width: 60em;
   position: relative;
-  left: 15em;
-  top: -6em;
+  top: 4em;
+  text-align: center;
+  padding: 150px;
+  margin: 20px;
 }
 
 .perks::after {
@@ -336,9 +335,12 @@ a {
   color: #fff;
   font-size: 50px;
   text-transform: uppercase;
-  margin-top: 105px;
   letter-spacing: 2px;
   text-align: center;
+  width: 11em;
+  margin-top: 2em;
+  position: relative;
+  left: 1em;
 }
 
 
@@ -481,13 +483,18 @@ a {
   }
 }
 
+.btncont {
+  flex-wrap: wrap;
+  position: relative;
+}
+
 .btn {
   display: inline-block;
   background: transparent;
   text-transform: uppercase;
   font-weight: 500;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 12px;
   letter-spacing: 0.3em;
   color: rgba(223, 190, 106, 0.7);
   border-radius: 0;
@@ -497,10 +504,7 @@ a {
   background-position: 1% 50%;
   background-size: 300% 300%;
   text-decoration: none;
-  position: relative;
-  left: 81vh;
-  top: -10vh;
-  margin: 0.625rem;
+  
   border: none;
   border: 1px solid rgba(223, 190, 106, 0.3);
 }
