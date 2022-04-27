@@ -526,9 +526,42 @@ a {
   background-position: 99% 50%;
 }
 
-@media (max-width:991px) {
+@media (max-width:1320px) {
   .btn {
 position: relative;
-left: 28em;
+left: 45em;
+  }
+}
+@media (max-width:850px) {
+  .btn {
+position: relative;
+left: 24em;
+  }
+}
+
+@media (min-width:1320px) and (max-width: 1800) {
+  .btn {
+position: relative;
+left: 70em;
+  }
+}
+
+@media (max-width:650px) {
+  .btn {
+position: relative;
+left: 18em;
+  }
+}
+
+@media (max-width:1300px) {
+  .btn {
+position: relative;
+left: 45em;
+  }
+}
+@media (max-width:450px) {
+  .btn {
+position: relative;
+left: 19em;
   }
 }
