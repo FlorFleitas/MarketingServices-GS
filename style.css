@@ -525,3 +525,10 @@ a {
   color: white;
   background-position: 99% 50%;
 }
+
+@media (max-width:991px) {
+  .btn {
+position: relative;
+left: 28em;
+  }
+}
