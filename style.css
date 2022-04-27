@@ -172,7 +172,7 @@ a {
   font-size: 35px;
   font-weight: bold;
   position: relative;
-  top: 8em;
+  top: 7em;
   color: rgba(22, 45, 84, 1);
   text-transform: uppercase;
   margin: 0;
@@ -189,14 +189,14 @@ a {
   letter-spacing: .1em;
   font-size: 2.26vh;
   text-align: center;
-  margin-top: 13em;
+  margin-top: 18em;
   width: 100%;
   min-width: 700px;
 }
 
 .perks p {
   position: relative;
-  top: 4em;
+  top: 1em;
   text-align: center;
   padding: 150px;
   margin: 20px;
@@ -207,7 +207,7 @@ a {
   content: '';
   position: absolute;
   bottom: 0;
-  top: 65em;
+  top: 66em;
   right: 70px;
   height: 170px;
   background-color: #000;
@@ -223,7 +223,7 @@ a {
 
 .container {
   position: relative;
-  width: 674px;
+  width: 100%;
   height: 350px;
 }
 
@@ -234,17 +234,18 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, .3);
-  transition: background 0.5s ease;
+  background: rgba(0, 0, 0, .4);
+  transition: background 0.6s ease;
 }
 
 .container:hover .overlay {
   display: block;
-  background: rgba(230, 228, 228, 0.8);
+  background: rgba(230, 228, 228, 0.82);
 }
 
 .container img {
   position: absolute;
+  object-fit: cover;
   width: 100%;
   height: 350px;
   left: 0;
@@ -266,14 +267,15 @@ a {
 }
 
 .container:hover .title {
-  opacity: 0;
+  opacity: 1;
+  color: rgba(22, 45, 84, 1);
 }
 
 .description {
   position: absolute;
-  width: 500px;
-  left: 65px;
-  top: 48px;
+  width: 600px;
+  left: 620px;
+  top: 80px;
   text-align: center;
   opacity: 0;
   transition: opacity .5s ease;
@@ -290,13 +292,13 @@ a {
 
 .description2 {
   position: absolute;
-  width: 600px;
-  left: 45px;
-  top: 25px;
+  width: 680px;
+  left: 600px;
+  top: 40px;
   text-align: center;
   opacity: 0;
   transition: opacity .5s ease;
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -307,11 +309,31 @@ a {
   text-align: center;
 }
 
+
+.description3 {
+  position: absolute;
+  width: 600px;
+  left: 620px;
+  top: 60px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .5s ease;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container:hover .description3 {
+  opacity: 1;
+  color: rgba(22, 45, 84, 1);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
 .description4 {
   position: absolute;
-  width: 500px;
-  left: 85px;
-  top: 32px;
+  width: 650px;
+  left: 585px;
+  top: 72px;
   text-align: center;
   opacity: 0;
   transition: opacity .5s ease;
@@ -338,6 +360,7 @@ a {
 .site-footer hr {
   border-top-color: #9D6C38;
   opacity: 0.5;
+  width: 150px;
 }
 
 .site-footer hr.small {
@@ -354,7 +377,7 @@ a {
   width: 11em;
   margin-top: 2em;
   position: relative;
-  left: 1em;
+  left: 7.5em;
 }
 
 
@@ -519,7 +542,7 @@ a {
   background-size: 300% 300%;
   text-decoration: none;
   position: relative;
-  left: 47em;
+  left: 48em;
   top: -5em;
   border: none;
   border: 1px solid rgba(223, 190, 106, 0.3);
