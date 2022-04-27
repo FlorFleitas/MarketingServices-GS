@@ -290,13 +290,13 @@ a {
 
 .description2 {
   position: absolute;
-  width: 500px;
-  left: 75px;
+  width: 600px;
+  left: 45px;
   top: 25px;
   text-align: center;
   opacity: 0;
   transition: opacity .5s ease;
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Montserrat", sans-serif;
 }
 
